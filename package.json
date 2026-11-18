@@ -1,0 +1,25 @@
+{
+  "name": "cue",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cue: an interactive streaming prototype for web, mobile and TV with AI-assisted discovery.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "build:demo": "node scripts/build-demo.mjs"
+  },
+  "dependencies": {
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.29",
+    "@types/react": "19.1.6",
+    "@types/react-dom": "19.1.6",
+    "esbuild": "0.25.5",
+    "typescript": "5.8.3"
+  }
+}
